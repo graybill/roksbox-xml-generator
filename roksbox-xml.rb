@@ -16,19 +16,19 @@ SERVER_PATH = "F:\\\\"
 
 Dir.chdir(VIDEO_PATH) #TODO move to setup()
 
-def movie_node_template(movie)
+def movie_node_template(file)
   "<movie>
-    <origtitle>#{movie_title(movie)}</origtitle>
+    <origtitle>#{movie_title(file)}</origtitle>
     <year></year>
-    <genre>#{genres(movie)}</genre>
+    <genre>#{genres(file)}</genre>
     <mpaa></mpaa>
     <director></director>
     <actors></actors>
     <description></description>
-    <path>#{web_server_path(movie)}</path>
+    <path>#{web_server_path(file)}</path>
     <length></length>
-    <videocodec>#{video_codec(movie)}</videocodec>
-    <poster>#{poster_path(movie)}</poster>
+    <videocodec>#{video_codec(file)}</videocodec>
+    <poster>#{poster_path(file)}</poster>
   </movie>
   "
 end
@@ -46,9 +46,9 @@ end
 
 def movie_title(file_path)
   File.basename(file_path)
-    .gsub('&', '&amp;')
     .gsub(File.extname(file_path), '')
     .gsub('.', ' ')
+    .gsub('&', '&amp;')
 end
 
 def genres(file_path)
@@ -63,13 +63,12 @@ def valid_video_format(file_path)
 end
 
 def valid_video_title(file_path)
-  # FIXME Not hiding . files
-  r = Regexp.new('^._') # skip hidden files
+  r = Regexp.new('^.') # skip hidden files
   file_path.match(r)
 end
 
 def poster_path(file_path)
-  # Assumes images are in 'images/' in the root dir
+  # Assumes images are in 'images/' in the SERVER_PATH root dir
   file = movie_title(file_path).gsub(' ', '-').downcase
   "images/#{genres(file_path)}/#{file}.jpg"
 end
@@ -77,14 +76,6 @@ end
 def video_codec(file_path)
   # TODO Get actual codecs and map
   File.extname(file_path).gsub('.', '')
-end
-
-def setup
-  Dir['*/'].each do | dir|
-    unless dir == "images/"
-      @sub_directories << "#{VIDEO_PATH}/#{dir}"
-    end
-  end
 end
 
 def generate_xml_file
@@ -108,35 +99,35 @@ end
 def parse_directories
   @sub_directories.each do |s|
     Dir.chdir(s)
-    parse_directory(Dir.pwd())
+    Dir.entries(Dir.pwd).each do |entry|
+      parse_directory(entry)
+    end #end Dir.entries
   end
 end
 
 def parse_directory(dir)
-  Dir.entries(Dir.pwd).each do |i|
-    @s_sub_directories = []
-    f_path = file_path(i)
-    f = File.absolute_path(f_path)
-    if !File.directory?(f)
-      if valid_video_format(f)
-        @video_files << f
-      else
-        p "Check on video" + f_path
-      end
+  # TODO Send sub directories here
+  f_path = file_path(dir)
+  f = File.absolute_path(f_path)
+  if !File.directory?(f)
+    if valid_video_format(f)
+      @video_files << f
     else
-      @s_sub_directories << "#{f_path}"
+      p "Check on video" + f_path
     end
-    # loop through sub_directories?
-    # they will have genre subdirectories
-
-  end #end Dir.entries
-  
+  else
+    @s_sub_directories << "#{f_path}"
+  end
 end
 
-setup
-parse_directories
-generate_xml_file
+def init
+  Dir['*/'].each do | dir|
+    unless dir == "images/"
+      @sub_directories << "#{VIDEO_PATH}/#{dir}"
+    end
+  end
+  parse_directories
+  generate_xml_file
+end
 
-
-
-
+init # Kick it off
