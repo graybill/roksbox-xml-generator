@@ -58,7 +58,7 @@ end
 
 def valid_video_format(file_path)
   # TODO Determine definite list for supported file formats
-  valid_formats = [".mp4", ".m4v", ".wmv"]
+  valid_formats = [".mp4", ".m4v", ".wmv", ".mov"]
   valid_formats.include?(File.extname(file_path))
 end
 
