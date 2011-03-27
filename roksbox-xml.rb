@@ -14,7 +14,7 @@ SERVER_PATH = "F:\\\\"
 @s_sub_directories = []
 @video_files = []
 
-Dir.chdir(VIDEO_PATH) #TODO move to setup()
+
 
 def movie_node_template(file)
   "<movie>
@@ -121,6 +121,7 @@ def parse_directory(dir)
 end
 
 def init
+  Dir.chdir(VIDEO_PATH) #TODO move to setup()
   Dir['*/'].each do | dir|
     unless dir == "images/"
       @sub_directories << "#{VIDEO_PATH}/#{dir}"
