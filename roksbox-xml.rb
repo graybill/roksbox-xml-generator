@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 # The media drive needs to be mounted on your local machine with a local
-# path to work!!!
+# path to work!
 
 # SET THESE VALUES
 # Path to video folder on your local machine
@@ -13,8 +13,6 @@ SERVER_PATH = "F:\\\\"
 @sub_directories = []
 @s_sub_directories = []
 @video_files = []
-
-
 
 def movie_node_template(file)
   "<movie>
@@ -121,6 +119,7 @@ def parse_directory(dir)
 end
 
 def init
+  puts "Generating XML file from videos..."
   Dir.chdir(VIDEO_PATH) #TODO move to setup()
   Dir['*/'].each do | dir|
     unless dir == "images/"
