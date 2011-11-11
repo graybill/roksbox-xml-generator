@@ -1,4 +1,4 @@
-Script to generate video XML for Roksbox.
+# Script to generate video XML for Roksbox. #
 
 Assumes a semantic directory structure like so:
 
