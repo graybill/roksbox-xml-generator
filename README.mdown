@@ -3,16 +3,12 @@
 Assumes a semantic directory structure like so:
 
 - Video/
-	- Movies/
-		- CoolMovie1.mov
-		- BlowMyMind_431qa.mp4
-	- Television/
-		- Futurama/
-			- Season 1/
-				- episode1_futurama.mp4
-				- episode2_futurama.mp4
-		- I Love Lucy/
-			- Season 1
-			- Season 2
-			- Season 3
-				- thatCoolHarpoMarxEpisode.avi
+  - images/
+    - Movies/
+      - CoolMovie1.jpg
+      - BlowMyMind_431qa.jpg
+    - Television
+      - Futurama/
+        - Season 1/
+          - episode1_futurama.jpg
+          - episode2_futurama.jpg
