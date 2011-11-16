@@ -1,0 +1,23 @@
+# Script to generate video XML for Roksbox. #
+
+Assumes a semantic directory structure like so:
+
+- Video/
+  - images/
+    - Movies/
+      - CoolMovie1.jpg
+      - BlowMyMind_431qa.jpg
+    - Television
+      - Futurama/
+        - Season 1/
+          - episode1_futurama.jpg
+          - episode2_futurama.jpg
+	- Movies/
+		- CoolMovie1.mov
+		- BlowMyMind_431qa.mp4
+	- Television/
+		- Futurama/
+			- Season 1/
+				- episode1_futurama.mp4
+				- episode2_futurama.mp4
+		- I Love Lucy/
