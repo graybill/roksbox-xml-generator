@@ -5,6 +5,7 @@
 
 # SET THESE VALUES
 # Path to video folder on your local machine
+# TODO: make this work over ssh?
 VIDEO_PATH = "/Volumes/MAXTOR (F)/Video"
 # The root path Roksbox is looking for
 SERVER_PATH = "F:\\\\"
@@ -33,9 +34,9 @@ end
 
 def web_server_path(file_path)
   # FIXME get that gsub to use VIDEO_PATH and SERVER_PATH
-  file_path.gsub('/', '\\')
-    .gsub('\Volumes\MAXTOR (F)', 'F:\\\\')
-    .gsub('&', '&amp;')
+  file_path.gsub('/', '\\').
+    gsub('\Volumes\MAXTOR (F)', 'F:\\\\').
+    gsub('&', '&amp;')
 end
 
 def file_path(file)
@@ -43,10 +44,10 @@ def file_path(file)
 end
 
 def movie_title(file_path)
-  File.basename(file_path)
-    .gsub(File.extname(file_path), '')
-    .gsub('.', ' ')
-    .gsub('&', '&amp;')
+  File.basename(file_path).
+    gsub(File.extname(file_path), '').
+    gsub('.', ' ').
+    gsub('&', '&amp;')
 end
 
 def genres(file_path)
@@ -111,7 +112,7 @@ def parse_directory(dir)
     if valid_video_format(f)
       @video_files << f
     else
-      p "Check on video" + f_path
+      p "Not a valid video format -- convert: " + f_path
     end
   else
     @s_sub_directories << "#{f_path}"

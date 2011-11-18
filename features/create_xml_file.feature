@@ -5,9 +5,10 @@ Feature: Generate XML file from videos
   So that I can have a UI with rich content for my videos
 
 	Scenario: Run the script from the command line
-	  When I run "ruby roksbox-xml.rb"
-	  Then I should see:
+    # Given 
+	  When I run `roksbox-xml`
+	  Then the output should contain:
 	    """
 	    Generating XML file from videos...
 	    """
-	  And I should not see "something I don't wanted printed"
+	  And the output should not contain "something I don't wanted printed"
