@@ -1,0 +1,384 @@
+<xml>
+    <viddb>
+    <movie>
+	<origtitle>Open Data Designing Data-centric Web APIs</origtitle>
+	<year> nothing</year>
+	<length> dunno </length>
+	<description></description>
+	<mpaa>Rated derp</mpaa>
+	<path>\Volumes\MAXTOR (F)\Video\O'Reilly Media\Open Data Designing Data-centric Web APIs.mp4</path>
+	<poster>whomp</poster>
+	<videocodec>mp4</videocodec>
+</movie>
+<movie>
+	<origtitle>Prototyping with Data</origtitle>
+	<year> nothing</year>
+	<length> dunno </length>
+	<description></description>
+	<mpaa>Rated derp</mpaa>
+	<path>\Volumes\MAXTOR (F)\Video\O'Reilly Media\Prototyping with Data.mp4</path>
+	<poster>whomp</poster>
+	<videocodec>mp4</videocodec>
+</movie>
+<movie>
+	<origtitle>Crowdsouring and Democratization of Data</origtitle>
+	<year> nothing</year>
+	<length> dunno </length>
+	<description></description>
+	<mpaa>Rated derp</mpaa>
+	<path>\Volumes\MAXTOR (F)\Video\O'Reilly Media\Crowdsouring and Democratization of Data.mp4</path>
+	<poster>whomp</poster>
+	<videocodec>mp4</videocodec>
+</movie>
+<movie>
+	<origtitle>peepcode-015-git</origtitle>
+	<year> nothing</year>
+	<length> dunno </length>
+	<description></description>
+	<mpaa>Rated derp</mpaa>
+	<path>\Volumes\MAXTOR (F)\Video\Peepcode\peepcode-015-git.mov</path>
+	<poster>whomp</poster>
+	<videocodec>mov</videocodec>
+</movie>
+<movie>
+	<origtitle>peepcode-006-caching</origtitle>
+	<year> nothing</year>
+	<length> dunno </length>
+	<description></description>
+	<mpaa>Rated derp</mpaa>
+	<path>\Volumes\MAXTOR (F)\Video\Peepcode\peepcode-006-caching.mov</path>
+	<poster>whomp</poster>
+	<videocodec>mov</videocodec>
+</movie>
+<movie>
+	<origtitle>peepcode-024-xmpp</origtitle>
+	<year> nothing</year>
+	<length> dunno </length>
+	<description></description>
+	<mpaa>Rated derp</mpaa>
+	<path>\Volumes\MAXTOR (F)\Video\Peepcode\peepcode-024-xmpp.mov</path>
+	<poster>whomp</poster>
+	<videocodec>mov</videocodec>
+</movie>
+<movie>
+	<origtitle>peepcode-033-clojure</origtitle>
+	<year> nothing</year>
+	<length> dunno </length>
+	<description></description>
+	<mpaa>Rated derp</mpaa>
+	<path>\Volumes\MAXTOR (F)\Video\Peepcode\peepcode-033-clojure.mov</path>
+	<poster>whomp</poster>
+	<videocodec>mov</videocodec>
+</movie>
+<movie>
+	<origtitle>peepcode-037-advanced-cmd</origtitle>
+	<year> nothing</year>
+	<length> dunno </length>
+	<description></description>
+	<mpaa>Rated derp</mpaa>
+	<path>\Volumes\MAXTOR (F)\Video\Peepcode\peepcode-037-advanced-cmd.mov</path>
+	<poster>whomp</poster>
+	<videocodec>mov</videocodec>
+</movie>
+<movie>
+	<origtitle>peepcode-049-rails-3-i-2</origtitle>
+	<year> nothing</year>
+	<length> dunno </length>
+	<description></description>
+	<mpaa>Rated derp</mpaa>
+	<path>\Volumes\MAXTOR (F)\Video\Peepcode\peepcode-049-rails-3-i-2.mov</path>
+	<poster>whomp</poster>
+	<videocodec>mov</videocodec>
+</movie>
+<movie>
+	<origtitle>peepcode-051-pbp-bernhardt</origtitle>
+	<year> nothing</year>
+	<length> dunno </length>
+	<description></description>
+	<mpaa>Rated derp</mpaa>
+	<path>\Volumes\MAXTOR (F)\Video\Peepcode\peepcode-051-pbp-bernhardt.mov</path>
+	<poster>whomp</poster>
+	<videocodec>mov</videocodec>
+</movie>
+<movie>
+	<origtitle>peepcode-052-postgresql</origtitle>
+	<year> nothing</year>
+	<length> dunno </length>
+	<description></description>
+	<mpaa>Rated derp</mpaa>
+	<path>\Volumes\MAXTOR (F)\Video\Peepcode\peepcode-052-postgresql.mov</path>
+	<poster>whomp</poster>
+	<videocodec>mov</videocodec>
+</movie>
+<movie>
+	<origtitle>peepcode-035-macruby</origtitle>
+	<year> nothing</year>
+	<length> dunno </length>
+	<description></description>
+	<mpaa>Rated derp</mpaa>
+	<path>\Volumes\MAXTOR (F)\Video\Peepcode\peepcode-035-macruby.mov</path>
+	<poster>whomp</poster>
+	<videocodec>mov</videocodec>
+</movie>
+<movie>
+	<origtitle>peepcode-048-nodejs-i-2</origtitle>
+	<year> nothing</year>
+	<length> dunno </length>
+	<description></description>
+	<mpaa>Rated derp</mpaa>
+	<path>\Volumes\MAXTOR (F)\Video\Peepcode\peepcode-048-nodejs-i-2.mov</path>
+	<poster>whomp</poster>
+	<videocodec>mov</videocodec>
+</movie>
+<movie>
+	<origtitle>I Love You Phillip Morris</origtitle>
+	<year> nothing</year>
+	<length> dunno </length>
+	<description>Bad Santa co-screenwriters Glenn Ficara and John Requa re-team for this fact-based black comedy starring Jim Carrey as a Virginia police officer-turned-con man who makes the leap to white-collar criminal after being sent to prison and falling in love with his sensitive cellmate. Steve Russell (Carrey) is a small-town cop. Bored with his bland lifestyle, Russell turns to fraud as a means of shaking things up. Before long, Russell's criminal antics have landed him behind bars, where he encounters the charismatic Phillip Morris (Ewan McGregor). Smitten, Russell devotes his entire life to being with Morris regardless of the consequences.</description>
+	<mpaa>Rated R</mpaa>
+	<path>\Volumes\MAXTOR (F)\Video\Movies\I Love You Phillip Morris.mp4</path>
+	<poster>http://cf2.imgobject.com/t/p/w342/y8TbxDlYTDBwkwhXZDUikpL1wXu.jpg</poster>
+	<videocodec>mp4</videocodec>
+</movie>
+<movie>
+	<origtitle>Rubber</origtitle>
+	<year> nothing</year>
+	<length> dunno </length>
+	<description>In the California desert, the adventures of a telepathic killer-tire, mysteriously attracted by a very pretty girl, as witnessed by incredulous onlookers.</description>
+	<mpaa>Rated derp</mpaa>
+	<path>\Volumes\MAXTOR (F)\Video\Movies\Rubber.mp4</path>
+	<poster>http://cf2.imgobject.com/t/p/w342/6zaq4lSe4SLUxeSMkjk29CBmqrD.jpg</poster>
+	<videocodec>mp4</videocodec>
+</movie>
+<movie>
+	<origtitle>Fahrenheit 451</origtitle>
+	<year> nothing</year>
+	<length> dunno </length>
+	<description>In an oppressive future, a fireman whose duty is to destroy all books begins to question his task.</description>
+	<mpaa>Rated derp</mpaa>
+	<path>\Volumes\MAXTOR (F)\Video\Movies\Fahrenheit 451 (1966).mp4</path>
+	<poster>http://cf2.imgobject.com/t/p/w342/srezQYW4z0rkrbg8zcAMJLkqbDE.jpg</poster>
+	<videocodec>mp4</videocodec>
+</movie>
+<movie>
+	<origtitle>The Bourne Ultimatum</origtitle>
+	<year> nothing</year>
+	<length> dunno </length>
+	<description>Bourne is once again brought out of hiding by reporter Simon Ross who is trying to unveil Operation Blackbriar an upgrade to Project Treadstone in a series of newspaper columns.Information from the reporter stirs a new set of memories, and Bourne must finally uncover his dark past whilst dodging The Company's best efforts to eradicate him.</description>
+	<mpaa>Rated PG-13</mpaa>
+	<path>\Volumes\MAXTOR (F)\Video\Movies\The Bourne Ultimatum.mp4</path>
+	<poster>http://cf2.imgobject.com/t/p/w342/eRFYRC8uFseOols01JdOaWd6d3B.jpg</poster>
+	<videocodec>mp4</videocodec>
+</movie>
+<movie>
+	<origtitle>The Assassination of Jesse James by the Coward Robert Ford</origtitle>
+	<year> nothing</year>
+	<length> dunno </length>
+	<description>Everyone in 1880's America knows Jesse James. He's the nation's most notorious criminal, hunted by the law in 10 states. He's also the land's greatest hero, lauded as a Robin Hood by the public. Robert Ford? No one knows him. Not Yet. But the ambitious 19-year-old aims to change that. He'll befriend Jesse, ride with his gang. And if that doesn't bring Ford fame, he'll find a deadlier way.</description>
+	<mpaa>Rated R</mpaa>
+	<path>\Volumes\MAXTOR (F)\Video\Movies\The Assassination of Jesse James.mp4</path>
+	<poster>http://cf2.imgobject.com/t/p/w342/lSFYLoaL4eW7Q5VQ7SZQP4EHRCt.jpg</poster>
+	<videocodec>mp4</videocodec>
+</movie>
+<movie>
+	<origtitle>Fido</origtitle>
+	<year> nothing</year>
+	<length> dunno </length>
+	<description>Timmy Robinson's best friend in the whole wide world is a six-foot tall rotting zombie named Fido. But when Fido eats the next-door neighbor, Mom and Dad hit the roof, and Timmy has to go to the ends of the earth to keep Fido a part of the family. A boy-and-his-dog movie for grown ups, "Fido" will rip your heart out.</description>
+	<mpaa>Rated R</mpaa>
+	<path>\Volumes\MAXTOR (F)\Video\Movies\Fido.mp4</path>
+	<poster>http://cf2.imgobject.com/t/p/w342/88nvrnrk6S3AxdnwFg4vE6S93WM.jpg</poster>
+	<videocodec>mp4</videocodec>
+</movie>
+<movie>
+	<origtitle>Scott Pilgrim vs. The World</origtitle>
+	<year> nothing</year>
+	<length> dunno </length>
+	<description>Scott Pilgrim is a film adaptation of the critically acclaimed, award-winning series of graphic novels of the same name by Canadian cartoonist Bryan Lee O’Malley. Scott Pilgrim is a 23 year old Canadian slacker and wannabe rockstar who falls in love with an American delivery girl, Ramona V. Flowers, and must defeat her seven "evil exes" to be able to date her.</description>
+	<mpaa>Rated PG-13</mpaa>
+	<path>\Volumes\MAXTOR (F)\Video\Movies\Scott Pilgrim Vs The World.mp4</path>
+	<poster>http://cf2.imgobject.com/t/p/w342/lafRuPbjEQrrHG9QEaoyV2znZC.jpg</poster>
+	<videocodec>mp4</videocodec>
+</movie>
+<movie>
+	<origtitle>Rear Window</origtitle>
+	<year> nothing</year>
+	<length> dunno </length>
+	<description>Jefferies has had his leg in a cast for weeks and has nothing to do but watch his neighbors from his window. His voyeurism leads him to think that he’s witnessed a murder. Together with his girlfriend Lisa and his nurse Stella they try to solve the mystery and possibly a murder.</description>
+	<mpaa>Rated PG</mpaa>
+	<path>\Volumes\MAXTOR (F)\Video\Movies\Rear Window.mp4</path>
+	<poster>http://cf2.imgobject.com/t/p/w342/6EDhk01fESTcdfRAvIHct4jfWk5.jpg</poster>
+	<videocodec>mp4</videocodec>
+</movie>
+<movie>
+	<origtitle>IMAX Destiny In Space</origtitle>
+	<year> nothing</year>
+	<length> dunno </length>
+	<description></description>
+	<mpaa>Rated derp</mpaa>
+	<path>\Volumes\MAXTOR (F)\Video\Movies\IMAX Destiny In Space.mp4</path>
+	<poster>whomp</poster>
+	<videocodec>mp4</videocodec>
+</movie>
+<movie>
+	<origtitle>Despicable Me</origtitle>
+	<year> nothing</year>
+	<length> dunno </length>
+	<description>In a happy suburban neighbourhood surrounded by white picket fences with flowering rose bushes, sits a black house with a dead lawn. Unbeknownst to the neighbours, hidden deep beneath this home is a vast secret hideout. Surrounded by an army of tireless, little yellow minions, we discover Gru, planning the biggest heist in the history of the world. He is going to steal the moon (Yes, the moon!) to prove to his Mum that he is better than the other super-villains, especially the new kid on the block, Vector.Gru delights in all things wicked. Armed with his arsenal of shrink rays, freeze guns and battle-ready vehicles for land and air, he vanquishes all who stand in his way. Until the day he encounters the immense will of three little orphaned girls who look at him and see something that no one else has ever seen: a potential dad.</description>
+	<mpaa>Rated PG</mpaa>
+	<path>\Volumes\MAXTOR (F)\Video\Movies\Despicable Me.mp4</path>
+	<poster>http://cf2.imgobject.com/t/p/w342/4zHJhBSY4kNZXfhTlmy2TzXD51M.jpg</poster>
+	<videocodec>mp4</videocodec>
+</movie>
+<movie>
+	<origtitle>Allen GInsberg An Elegy</origtitle>
+	<year> nothing</year>
+	<length> dunno </length>
+	<description></description>
+	<mpaa>Rated derp</mpaa>
+	<path>\Volumes\MAXTOR (F)\Video\Movies\Allen GInsberg An Elegy.mp4</path>
+	<poster>whomp</poster>
+	<videocodec>mp4</videocodec>
+</movie>
+<movie>
+	<origtitle>Attack of the Giant Cockroaches</origtitle>
+	<year> nothing</year>
+	<length> dunno </length>
+	<description></description>
+	<mpaa>Rated derp</mpaa>
+	<path>\Volumes\MAXTOR (F)\Video\Movies\Attack of the Giant Cockroaches.mp4</path>
+	<poster>whomp</poster>
+	<videocodec>mp4</videocodec>
+</movie>
+<movie>
+	<origtitle>Because of Winn-Dixie</origtitle>
+	<year> nothing</year>
+	<length> dunno </length>
+	<description>A girl, abandoned by her mother when she was three, moves to a small town in Florida with her father. There, she adopts an orphaned dog she names Winn-Dixie. The bond between the girl and her special companion brings together the people in a small Florida town and heals her own troubled relationship with her father. Based on the children's novel 'Because of Winn-Dixie' (2000) by Kate DiCamillo.</description>
+	<mpaa>Rated PG</mpaa>
+	<path>\Volumes\MAXTOR (F)\Video\Movies\Because of Winn-Dixie.mp4</path>
+	<poster>http://cf2.imgobject.com/t/p/w342/8rTIooHFQ2IN9EqzsB1dqmDGxAD.jpg</poster>
+	<videocodec>mp4</videocodec>
+</movie>
+<movie>
+	<origtitle>Doubt</origtitle>
+	<year> nothing</year>
+	<length> dunno </length>
+	<description>Set in 1964, Doubt centers on a nun who confronts a priest after suspecting him abusing a black student. He denies the charges, and much of the movie's quick-fire dialogue tackles themes of religion, morality and authority.</description>
+	<mpaa>Rated PG-13</mpaa>
+	<path>\Volumes\MAXTOR (F)\Video\Movies\Doubt.mp4</path>
+	<poster>http://cf2.imgobject.com/t/p/w342/reiPvxenD0YSLJT3e5TZxSv4x6B.jpg</poster>
+	<videocodec>mp4</videocodec>
+</movie>
+<movie>
+	<origtitle>Imax: Everest</origtitle>
+	<year> nothing</year>
+	<length> dunno </length>
+	<description>Beyond an epic story of triumph and tragedy, Everest is a tribute to those individuals who believe that dreams can be attained through incredible effort and risk. Music by George Harrison.</description>
+	<mpaa>Rated derp</mpaa>
+	<path>\Volumes\MAXTOR (F)\Video\Movies\IMAX Everest.mp4</path>
+	<poster>http://cf2.imgobject.com/t/p/w342/hk22ybY9xBBkm0NqP9LtXwMmUlO.jpg</poster>
+	<videocodec>mp4</videocodec>
+</movie>
+<movie>
+	<origtitle>Everything is Illuminated</origtitle>
+	<year> nothing</year>
+	<length> dunno </length>
+	<description>The filmed version of the semi-autobiographical novel by American writer Jonathan Safran Foer of the same name, in which a young Jewish American is on a trip in the past.</description>
+	<mpaa>Rated PG-13</mpaa>
+	<path>\Volumes\MAXTOR (F)\Video\Movies\Everything is Illuminated.mp4</path>
+	<poster>http://cf2.imgobject.com/t/p/w342/d83IUUdA8mbenp5RaEuC02MbN6f.jpg</poster>
+	<videocodec>mp4</videocodec>
+</movie>
+<movie>
+	<origtitle>Shaun of the Dead</origtitle>
+	<year> nothing</year>
+	<length> dunno </length>
+	<description>Shaun of the Dead is a humorous homage to Zombie movies from director Edgar Wright; an outrageous romantic comedy with zombies.</description>
+	<mpaa>Rated R</mpaa>
+	<path>\Volumes\MAXTOR (F)\Video\Movies\Shaun of the Dead.mp4</path>
+	<poster>http://cf2.imgobject.com/t/p/w342/2evlcGnsfdFWLb7geNlIjIewc0Q.jpg</poster>
+	<videocodec>mp4</videocodec>
+</movie>
+<movie>
+	<origtitle>The Bourne Identity</origtitle>
+	<year> nothing</year>
+	<length> dunno </length>
+	<description>Wounded to the brink of death and suffering from amnesia, Jason Bourne is rescued at sea by a fisherman. With nothing to go on but a Swiss bank account number, he starts to reconstruct his life, but finds that many people he encounters want him dead. Bourne realizes, though, that he has the combat and mental skills of a world-class spy, but who does he work for?</description>
+	<mpaa>Rated PG-13</mpaa>
+	<path>\Volumes\MAXTOR (F)\Video\Movies\The Bourne Identity.mp4</path>
+	<poster>http://cf2.imgobject.com/t/p/w342/o9oyom8M4KSeJxa1o1DUyM9RAyT.jpg</poster>
+	<videocodec>mp4</videocodec>
+</movie>
+<movie>
+	<origtitle>The Bourne Supremacy</origtitle>
+	<year> nothing</year>
+	<length> dunno </length>
+	<description>When a CIA operation to purchase classified Russian documents is blown by a rival agent, who then shows up in the sleepy seaside village where Bourne and Marie have been living. The pair run for their lives and Bourne, who promised retaliation should anyone from his former life attempt contact, is forced to once again take up his life as a trained assassin to survive.</description>
+	<mpaa>Rated PG-13</mpaa>
+	<path>\Volumes\MAXTOR (F)\Video\Movies\The Bourne Supremacy.mp4</path>
+	<poster>http://cf2.imgobject.com/t/p/w342/hScLhZUiq3ZyIjOajmrCzt6CloI.jpg</poster>
+	<videocodec>mp4</videocodec>
+</movie>
+<movie>
+	<origtitle>The Man Who Knew Too Much</origtitle>
+	<year> nothing</year>
+	<length> dunno </length>
+	<description>A widescreen, Technicolor remake of Hitchcock's own 1934 film of the same title starring James Stewart and Doris Day. A couple vacationing in Morocco with their son accidentally stumble upon an assassination plot. When their son is kidnapped to ensure their silence, they have to take matters into their own hands to save him.</description>
+	<mpaa>Rated PG</mpaa>
+	<path>\Volumes\MAXTOR (F)\Video\Movies\The Man Who Knew Too Much.mp4</path>
+	<poster>http://cf2.imgobject.com/t/p/w342/niEwbMZ2lMyGsplrJIu1f9qotVf.jpg</poster>
+	<videocodec>mp4</videocodec>
+</movie>
+<movie>
+	<origtitle>Spirited Away</origtitle>
+	<year> nothing</year>
+	<length> dunno </length>
+	<description>Spirited Away is an Oscar winning Japanese animated film about a ten year old girl who wanders away from her parents along a path that leads to a world ruled by strange and unusual monster-like animals. Her parents have been changed into pigs along with others inside a bathhouse full of these creatures. Will she ever see the world how it once was?</description>
+	<mpaa>Rated PG</mpaa>
+	<path>\Volumes\MAXTOR (F)\Video\Movies\Spirited Away.mp4</path>
+	<poster>http://cf2.imgobject.com/t/p/w342/x2WvbHqjFJJRewlqzffEeSPnf7X.jpg</poster>
+	<videocodec>mp4</videocodec>
+</movie>
+<movie>
+	<origtitle>WALL·E</origtitle>
+	<year> nothing</year>
+	<length> dunno </length>
+	<description>WALL-E is the last robot left on an Earth that has been overrun with garbage and all humans have fled to outer space. For 700 years he has continued to try and clean up the mess, but has developed some rather interesting human-like qualities. When a ship arrives with a sleek new type of robot, Wall-E thinks he's finally found a friend and stows away on the ship when it leaves.</description>
+	<mpaa>Rated G</mpaa>
+	<path>\Volumes\MAXTOR (F)\Video\Movies\Wall-E.mp4</path>
+	<poster>http://cf2.imgobject.com/t/p/w342/4qOKgcDcB0SojUIg2syzor1FeL7.jpg</poster>
+	<videocodec>mp4</videocodec>
+</movie>
+<movie>
+	<origtitle>Volcanoes of the Deep Sea</origtitle>
+	<year> nothing</year>
+	<length> dunno </length>
+	<description>12,000 feet down, life is erupting. Alvin, a deep-sea mechanized probe, makes a voyage some 12,000 feet underwater to explore the Azores, a constantly-erupting volcanic rift between Europe and North America.</description>
+	<mpaa>Rated G</mpaa>
+	<path>\Volumes\MAXTOR (F)\Video\Movies\IMAX Deep Sea.mp4</path>
+	<poster>http://cf2.imgobject.com/t/p/w342/l0o4aHgOWu1DIOaELgvdWbJSVWX.jpg</poster>
+	<videocodec>mp4</videocodec>
+</movie>
+<movie>
+	<origtitle>Man on Wire</origtitle>
+	<year> nothing</year>
+	<length> dunno </length>
+	<description>On August 7th 1974, French tightrope walker Philippe Petit stepped out on a high wire, illegally rigged between New York's World Trade Center twin towers, then the world's tallest buildings. After nearly an hour of performing on the wire, 1,350 feet above the sidewalks of Manhattan, he was arrested. This fun and spellbinding documentary chronicles Philippe Petit's "highest" achievement.</description>
+	<mpaa>Rated PG-13</mpaa>
+	<path>\Volumes\MAXTOR (F)\Video\Movies\Man On Wire.mp4</path>
+	<poster>http://cf2.imgobject.com/t/p/w342/mIKipFYDLymVhOMuWSXHIALTsoq.jpg</poster>
+	<videocodec>mp4</videocodec>
+</movie>
+<movie>
+	<origtitle>Milk</origtitle>
+	<year> nothing</year>
+	<length> dunno </length>
+	<description>The story of California's first openly gay elected official, Harvey Milk, a San Francisco supervisor.</description>
+	<mpaa>Rated R</mpaa>
+	<path>\Volumes\MAXTOR (F)\Video\Movies\Milk.mp4</path>
+	<poster>http://cf2.imgobject.com/t/p/w342/sFYmJJSVXqfqPI79tx4UG4IR5Jb.jpg</poster>
+	<videocodec>mp4</videocodec>
+</movie>
+</viddb>
+  </xml>
