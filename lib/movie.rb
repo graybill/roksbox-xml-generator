@@ -3,32 +3,46 @@ require 'json'
 class Movie
   include HTTParty
 
-  attr_accessor :name, :year, :poster, :file_path
+  attr_accessor :name, :year, :poster, :file_path, :description, :runtime, :rated, :director, :actors
 
   def initialize(response, original_file)
     response = JSON.parse(response)
     self.name=(response['Title'])
     self.year=(response['Year'])
     self.poster=(response['Poster'])
+    self.description=(response['Plot'])
+    self.runtime=(runtime_to_minutes(response['Runtime']))
+    self.rated=(response['Rated'])
+    self.director=(response['Director'])
+    self.actors=(response['Actors'])
     self.file_path=(original_file)
-    # assign_attributes_from_hash(response)
+    # p "File path: " + self.file_path
   end
 
-  def assign_attributes_from_hash(response)
-    response.keys.each do |key|
-      p response[key]
-    end
+  def file_path=(val)
+    # Convert to server path
+    @file_path = val.gsub(VIDEOS_PATH, ROKSBOX_PATH)
+  end
+
+  protected
+  def runtime_to_minutes(val)
+    # Expects a format of "1 hr 50 mins"
+    val = val.split(/hr/)
+    (val[0].to_i * 60) + val[1].to_i
   end
 
 end
 
 # <movie>
-#   <origtitle>The Assassination of Jesse James by the Coward Robert Ford</origtitle>
-#   <year> nothing</year>
-#   <length> dunno </length>
-#   <description>Everyone in 1880's America knows Jesse James. He's the nation's most notorious criminal, hunted by the law in 10 states. He's also the land's greatest hero, lauded as a Robin Hood by the public. Robert Ford? No one knows him. Not Yet. But the ambitious 19-year-old aims to change that. He'll befriend Jesse, ride with his gang. And if that doesn't bring Ford fame, he'll find a deadlier way.</description>
-#   <mpaa>Rated R</mpaa>
-#   <path>\Volumes\MAXTOR (F)\Video\Movies\The Assassination of Jesse James.mp4</path>
-#   <poster>http://cf2.imgobject.com/t/p/w342/lSFYLoaL4eW7Q5VQ7SZQP4EHRCt.jpg</poster>
+#   <origtitle>Avatar</origtitle>
+#   <year>2009</year>
+#   <genre>Action, Adventure, Sci-Fi</genre>
+#   <mpaa>Rated PG-13</mpaa>
+#   <director>James Cameron</director>
+#   <actors>Sam Worthington, Zoe Saldana, Sigourney Weaver, Stephen Lang</actors>
+#   <description>A paraplegic marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.</description>
+#   <path>Z:\WWW\WWW-pub\Media\Videos\Avatar.mp4</path>
+#   <length>120</length>
 #   <videocodec>mp4</videocodec>
+#   <poster>images/Avatar.jpg</poster>
 # </movie>
