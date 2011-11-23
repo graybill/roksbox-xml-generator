@@ -5,10 +5,10 @@ require "#{BASE_PATH}/lib/series"
 class SeriesTest < Test::Unit::TestCase
  
   def setup
-    @response = File.open("#{BASE_PATH}/test/fixtures/tvdb_api.xml").read
+    @response = File.open("#{BASE_PATH}/test/fixtures/tvdb_api_series.xml").read
   end
 
-  def test_set_initialized_attributes
+  def test_set_initialized_attributes_with_tvdb
     series = Series.new(@response, @file)
     assert series.name, "South Park"
     assert_match series.overview, /South Park is an animated series featuring four boys/

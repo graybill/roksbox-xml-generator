@@ -10,8 +10,8 @@ class Series
     self.name=response.css('SeriesName').text
     self.overview=response.css('Overview').text
     self.tvdb_id=response.css('seriesid').text
-    # TODO get absolute path
-    # self.poster=response.css('banner').text
+    # TODO get absolute path from mirrors.xml
+    self.poster=response.css('banner').text
   end
 
 end
