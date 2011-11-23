@@ -10,7 +10,11 @@ class Tvdb
 
   def self.get_series(name)
     response = get(@base_uri + "GetSeries.php?seriesname=#{URI.escape(name)}")
-    response["Data"]["Series"]
+    response = response["Data"]["Series"]
+    case response.class.to_s
+    when "Hash" then response
+    when "Array" then response[0]
+    end
   end
 
 end
