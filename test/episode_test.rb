@@ -10,10 +10,10 @@ class EpisodeTest < Test::Unit::TestCase
 
   def test_set_initialized_attributes_with_tvdb
     episode = Episode.new(@response)
-    assert_equal episode.name, "Second Season First Episode"
-    assert_equal episode.season, "2"
-    assert_equal episode.episode_no, "1"
-
+    assert_equal "Second Season First Episode", episode.name
+    assert_equal "2", episode.season 
+    assert_equal "1", episode.episode_no
+    assert_match /Chuck Bartowski is an average computer geek/, episode.description
   end
 
 end
