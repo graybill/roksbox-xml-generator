@@ -13,6 +13,16 @@ class TvdbTest < Test::Unit::TestCase
 
   # NOTE: Currently testing API responses which probably shouldn't be tested, but could sure help if they change the API
 
+  def test_get_series_from_api
+    response = Tvdb.get_series("South Park")
+    assert_equal "75897", response["seriesid"]
+  end
+
+  def test_get_first_series_when_multiples
+    response = Tvdb.get_series("Lost")
+    assert_equal "73739", response["seriesid"]
+  end
+
   def test_get_episode_from_api
     response = Tvdb.get_episode("80348", "2007-09-24")
     assert response["Episode"]
@@ -23,16 +33,6 @@ class TvdbTest < Test::Unit::TestCase
     response = Tvdb.get_episode("80348", "2007-09-26")
     assert response["Error"]
     assert_equal "No Results from SP", response["Error"]
-  end
-
-  def test_get_series_from_api
-    response = Tvdb.get_series("South Park")
-    assert_equal "75897", response["seriesid"]
-  end
-
-  def test_get_first_series_when_multiples
-    response = Tvdb.get_series("Lost")
-    assert_equal "73739", response["seriesid"]
   end
 
 end
